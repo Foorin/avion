@@ -1,0 +1,56 @@
+.card {
+    text-align: center;
+    background-color: #fff;
+    width: 1000px;
+    height: 364px;
+    font-family: ClashDisplayR;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* line 160, ../сайты/uu/sass/style.sass */
+  .card__title {
+    padding-top: 68px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  /* line 165, ../сайты/uu/sass/style.sass */
+  .card__text {
+    font-size: 16px;
+    margin-bottom: 70px;
+    width: 470px;
+    color: #000000;
+  }
+  
+  /* line 170, ../сайты/uu/sass/style.sass */
+  .card__input {
+    font-family: satoshi;
+  }
+  
+  /* line 172, ../сайты/uu/sass/style.sass */
+  .card__input_pole {
+    font-size: 16px;
+    width: 354px;
+    height: 56px;
+    background-color: #F9F9F9;
+  }
+  
+  /* line 177, ../сайты/uu/sass/style.sass */
+  .card__input_pole::placeholder {
+    padding-left: 20px;
+    color: #726E8D;
+  }
+  
+  /* line 180, ../сайты/uu/sass/style.sass */
+  .card__input_button {
+    width: 118px;
+    height: 56px;
+    color: #FFFFFF;
+    background-color: #2A254B;
+    font-family: satoshi;
+    font-size: 16px;
+  }
+  

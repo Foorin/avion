@@ -1,0 +1,316 @@
+@charset "UTF-8";
+/* line 8, ../сайты/uu/sass/style.sass */
+@import url(fonts_style.css);
+@import url(card_style.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* line 30, ../сайты/uu/sass/style.sass */
+p {
+  display: inline;
+}
+
+/* line 33, ../сайты/uu/sass/style.sass */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 37, ../сайты/uu/sass/style.sass */
+.menu {
+  margin-bottom: 60px;
+}
+
+/* line 40, ../сайты/uu/sass/style.sass */
+.menu__top {
+  display: flex;
+  justify-content: space-between;
+  height: 66px;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* line 46, ../сайты/uu/sass/style.sass */
+.menu__top_nextstr {
+  display: flex;
+  gap: 10px;
+}
+
+/* line 49, ../сайты/uu/sass/style.sass */
+.menu__bottom {
+  display: flex;
+  justify-content: space-evenly;
+  height: 66px;
+  align-items: center;
+  font-family: satoshi;
+  font-size: 16px;
+  color: #726E8D;
+}
+
+/* line 57, ../сайты/uu/sass/style.sass */
+.preview {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 584px;
+  background: #2A254B;
+  margin-bottom: 120px;
+}
+
+/* line 65, ../сайты/uu/sass/style.sass */
+.preview__right {
+  color: #FFFFFF;
+  font-family: ClashDisplayR;
+  font-weight: regular;
+  font-size: 32px;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+/* line 72, ../сайты/uu/sass/style.sass */
+.preview__right_title {
+  width: 513px;
+  margin-bottom: 40px;
+}
+
+/* line 75, ../сайты/uu/sass/style.sass */
+.preview__right_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 56px;
+  font-size: 16px;
+  background-color: rgba(249, 249, 249, 0.15);
+  margin-bottom: 190px;
+  color: white;
+  font-family: "satoshi";
+}
+
+/* line 86, ../сайты/uu/sass/style.sass */
+.preview__right_text {
+  font-family: satoshi;
+  font-size: 18px;
+  width: 602px;
+}
+
+/* line 91, ../сайты/uu/sass/style.sass */
+.preview__left_img {
+  width: 475px;
+}
+
+/* line 94, ../сайты/uu/sass/style.sass */
+.second {
+  margin-bottom: 160px;
+  color: #000000;
+}
+
+/* line 97, ../сайты/uu/sass/style.sass */
+.second__title {
+  width: 410px;
+  margin: 0 auto;
+  font-family: ClashDisplayR;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+/* line 103, ../сайты/uu/sass/style.sass */
+.second__utp {
+  display: flex;
+  gap: 21px;
+  justify-content: center;
+}
+
+/* line 107, ../сайты/uu/sass/style.sass */
+.utp {
+  width: 400px;
+}
+
+/* line 109, ../сайты/uu/sass/style.sass */
+.utp_logo {
+  margin-bottom: 16px;
+}
+
+/* line 111, ../сайты/uu/sass/style.sass */
+.utp_title {
+  font-family: ClashDisplayR;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+/* line 115, ../сайты/uu/sass/style.sass */
+.utp_text {
+  font-family: satoshi;
+  font-size: 16px;
+}
+
+/* line 119, ../сайты/uu/sass/style.sass */
+.third {
+  margin-bottom: 60px;
+  color: #000000;
+}
+
+/* line 122, ../сайты/uu/sass/style.sass */
+.third__title {
+  font-family: ClashDisplayR;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* line 126, ../сайты/uu/sass/style.sass */
+.third__services {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 130, ../сайты/uu/sass/style.sass */
+.service {
+  font-family: ClashDisplayR;
+  color: black;
+}
+
+/* line 133, ../сайты/uu/sass/style.sass */
+.service_img {
+  margin-bottom: 20px;
+}
+
+/* line 135, ../сайты/uu/sass/style.sass */
+.service_title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+/* line 138, ../сайты/uu/sass/style.sass */
+.service_price {
+  font-size: 18px;
+}
+
+/* line 141, ../сайты/uu/sass/style.sass */
+.four {
+  background-color: #F9F9F9;
+  height: 480px;
+}
+
+/* line 144, ../сайты/uu/sass/style.sass */
+.four__card {
+  padding-top: 52px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 151, ../сайты/uu/sass/style.sass */
+
+/* line 188, ../сайты/uu/sass/style.sass */
+.footer {
+  background-color: #2A254B;
+  font-family: ClashDisplayl;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 70px;
+}
+
+/* line 196, ../сайты/uu/sass/style.sass */
+.footer_second {
+  display: flex;
+  align-items: center;
+  padding-left: 82px;
+  padding-right: 82px;
+  justify-content: space-between;
+}
+
+/* line 203, ../сайты/uu/sass/style.sass */
+.info {
+  display: flex;
+  gap: 110px;
+  padding-left: 82px;
+}
+
+/* line 207, ../сайты/uu/sass/style.sass */
+.info_title {
+  font-size: 16px;
+  font-family: ClashDisplayR;
+  color: white;
+}
+
+/* line 211, ../сайты/uu/sass/style.sass */
+.info_var {
+  font-size: 14px;
+  color: white;
+}
+
+/* line 214, ../сайты/uu/sass/style.sass */
+.info_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #FFFFFF;
+}
+
+/* line 219, ../сайты/uu/sass/style.sass */
+.info_categories {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #FFFFFF;
+}
+
+/* line 224, ../сайты/uu/sass/style.sass */
+.info_company {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #FFFFFF;
+}
+
+/* line 232, ../сайты/uu/sass/style.sass */
+.mail_text {
+  font-family: ClashDisplayR;
+  color: #FFFFFF;
+}
+
+/* line 236, ../сайты/uu/sass/style.sass */
+.mail_pole_input {
+  background-color: rgba(249, 249, 249, 0.15);
+  width: 300px;
+  height: 56px;
+  color: white;
+  font-family: satoshi;
+}
+
+/* line 242, ../сайты/uu/sass/style.sass */
+.mail_pole_input::placeholder {
+  color: white;
+  padding-left: 20px;
+  color: #FFFFFF;
+}
+
+/* line 246, ../сайты/uu/sass/style.sass */
+.mail_pole_button {
+  width: 118px;
+  height: 56px;
+  background-color: #fff;
+  font-family: satoshi;
+  font-size: 16px;
+  color: #726E8D;
+}
+
+/* line 255, ../сайты/uu/sass/style.sass */
+.social {
+  display: flex;
+  gap: 24px;
+}
+
+/* line 259, ../сайты/uu/sass/style.sass */
+.ltd {
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
